@@ -1,11 +1,23 @@
-import { add, mul } from './index';
+import { assert, describe, expect, it } from 'vitest';
+import { add, mul, hello } from './index';
 
-describe('sample test describe', () => {
-  test('sample test - add', () => {
-    expect(add(1)(2)).toBe(3);
+describe('suite name', () => {
+  it('add', () => {
+    expect(add(1)(1)).eq(2);
   });
 
-  test('sample test - mul', () => {
-    expect(mul(1)(2)).toBe(2);
+  it('mul', () => {
+    expect(mul(2)(2)).eq(4);
+  });
+
+  it('hello', () => {
+    const expectResult = {
+      foo: 'hello',
+      bar: 'world',
+    };
+
+    const result = hello();
+
+    assert.deepEqual(expectResult, result);
   });
 });

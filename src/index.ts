@@ -7,3 +7,10 @@ export const mul =
   (x: number) =>
   (y: number): number =>
     x * y;
+
+export const hello = () => {
+  return {
+    foo: 'hello',
+    bar: 'world',
+  };
+};
