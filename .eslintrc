@@ -11,8 +11,7 @@
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": "latest",
-    "sourceType": "module",
-    "project": ["tsconfig.json", "vitest.config.ts", ".prettierrc"]
+    "sourceType": "module"
   },
   "plugins": ["@typescript-eslint"],
   "rules": {

@@ -16,8 +16,8 @@
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
-      "npx eslint src/ --fix",
-      "npx prettier --write src/"
+      "npx eslint . --fix",
+      "npx prettier --write ."
     ]
   },
   "devDependencies": {
