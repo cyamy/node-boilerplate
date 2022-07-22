@@ -8,12 +8,10 @@ const div =
   (y: number): number =>
     x / y;
 
-const goodbye = () => {
-  return {
-    baz: 'goodbye',
-    qux: 'world',
-  };
-};
+const goodbye = () => ({
+  baz: 'goodbye',
+  qux: 'world',
+});
 
 if (import.meta.vitest) {
   const { assert, describe, it, expect } = import.meta.vitest;

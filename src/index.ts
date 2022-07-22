@@ -8,9 +8,7 @@ export const mul =
   (y: number): number =>
     x * y;
 
-export const hello = () => {
-  return {
-    foo: 'hello',
-    bar: 'world',
-  };
-};
+export const hello = () => ({
+  foo: 'hello',
+  bar: 'world',
+});
