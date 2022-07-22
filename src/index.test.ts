@@ -1,7 +1,7 @@
 import { assert, describe, expect, it } from 'vitest';
 import { add, mul, hello } from './index';
 
-describe('suite name', () => {
+describe('calc', () => {
   it('add', () => {
     expect(add(1)(1)).eq(2);
   });
