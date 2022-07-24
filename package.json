@@ -13,6 +13,7 @@
     "test:watch": "vitest dev",
     "test:coverage": "vitest run --coverage",
     "build": "unbuild",
+    "preview": "node build/index.mjs",
     "lint-staged": "lint-staged",
     "prepare": "husky install"
   },
