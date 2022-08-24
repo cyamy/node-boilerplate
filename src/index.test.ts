@@ -1,4 +1,3 @@
-import { assert, describe, expect, it } from 'vitest';
 import { add, mul, hello } from './index';
 
 describe('calc', () => {
