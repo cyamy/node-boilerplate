@@ -43,8 +43,8 @@ const div =
 
 const goodbye = () => {
     return {
-        baz: 'goodbye',
-        qux: 'world',
+        baz: 'a disruption and blinder',
+        qux: 'mn..',
     };
 };
 
@@ -62,8 +62,8 @@ if (import.meta.vitest) {
 
         it('goodbye', () => {
             const expectResult = {
-                baz: 'goodbye',
-                qux: 'world',
+                baz: 'a disruption and blinder',
+                qux: 'mn..',
             };
             const result = goodbye();
 
