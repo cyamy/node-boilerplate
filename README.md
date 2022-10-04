@@ -28,7 +28,7 @@ support in-source testing.
 -   `ni build` create build file
 -   `ni preview` exec build file
 
-## inline test sample
+## in-source testing sample
 
 ```ts
 const sub =
