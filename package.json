@@ -8,6 +8,7 @@
     "license": "ISC",
     "scripts": {
         "start": "ts-node src/index.ts",
+        "dev": "npx nodemon",
         "test": "vitest run",
         "test:watch": "vitest dev",
         "test:coverage": "vitest run --coverage",
