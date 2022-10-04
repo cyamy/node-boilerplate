@@ -1,5 +1,5 @@
 {
-    "name": "node-template",
+    "name": "node-boilerplate",
     "version": "1.0.0",
     "description": "",
     "main": "src/index.ts",
