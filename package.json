@@ -6,9 +6,10 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
+    "type": "module",
     "scripts": {
-        "start": "ts-node src/index.ts",
-        "dev": "npx nodemon",
+        "start": "node --experimental-loader ts-node/esm src/index.ts",
+        "dev": "nodemon -x \"npm start\" -w src/**/* -e ts,json",
         "test": "vitest run",
         "test:watch": "vitest dev",
         "test:coverage": "vitest run --coverage",
