@@ -10,13 +10,11 @@ describe('calc', () => {
     });
 
     it('hello', () => {
-        const expectResult = {
+        const actual = hello();
+
+        assert.deepEqual(actual, {
             foo: 'hello',
             bar: 'world',
-        };
-
-        const result = hello();
-
-        assert.deepEqual(expectResult, result);
+        });
     });
 });

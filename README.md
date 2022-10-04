@@ -61,13 +61,12 @@ if (import.meta.vitest) {
         });
 
         it('goodbye', () => {
-            const expectResult = {
+            const actual = goodbye();
+
+            assert.deepEqual(actual, {
                 baz: 'a disruption and blinder',
                 qux: 'mn..',
-            };
-            const result = goodbye();
-
-            assert.deepEqual(expectResult, result);
+            });
         });
     });
 }
