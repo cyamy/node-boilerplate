@@ -5,7 +5,7 @@
             "type": "node",
             "request": "launch",
             "skipFiles": ["<node_internals>/**", "node_modules/**"],
-            "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+            "runtimeArgs": ["--nolazy", "--experimental-loader", "ts-node/esm"],
             "program": "${file}"
         },
         {
