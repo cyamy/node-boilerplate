@@ -21,12 +21,12 @@ support in-source testing.
 
 ## commands
 
--   `ni dev` watch `src/index.ts`
--   `ni test` run vitest
--   `ni test:watch` run vitest with watch mode
--   `ni test:coverage` show test coverage
--   `ni build` create build file
--   `ni preview` exec build file
+-   `nr dev` watch `src/index.ts`
+-   `nr test` run vitest
+-   `nr test:watch` run vitest with watch mode
+-   `nr test:coverage` show test coverage
+-   `nr build` create build file
+-   `nr preview` exec build file
 
 ## in-source testing sample
 
