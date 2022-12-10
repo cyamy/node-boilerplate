@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@types/node': 18.11.10
+  '@types/node': 18.11.13
   '@typescript-eslint/eslint-plugin': 5.39.0
   '@typescript-eslint/parser': 5.39.0
   c8: 7.12.0
@@ -22,7 +22,7 @@ specifiers:
   vitest: 0.24.4
 
 devDependencies:
-  '@types/node': 18.11.10
+  '@types/node': 18.11.13
   '@typescript-eslint/eslint-plugin': 5.39.0_cfd7h3iktziq6hcwahu2qxhjhy
   '@typescript-eslint/parser': 5.39.0_z4bbprzjrhnsfa24uvmcbu7f5q
   c8: 7.12.0
@@ -36,10 +36,10 @@ devDependencies:
   lint-staged: 13.0.3
   nodemon: 2.0.20
   prettier: 2.8.0
-  ts-node: 10.9.1_tqjxwsrbrthhtfy6omehzgz7kq
+  ts-node: 10.9.1_zwbbn7v4nhzhfdmlr6kgywzsoe
   typescript: 4.8.4
   unbuild: 0.8.11
-  vite: 3.2.4_@types+node@18.11.10
+  vite: 3.2.4_@types+node@18.11.13
   vitest: 0.24.4
 
 packages:
@@ -542,14 +542,14 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node/18.11.10:
-    resolution: {integrity: sha512-juG3RWMBOqcOuXC643OAdSA525V44cVgGV6dUDuiFtss+8Fk5x1hI93Rsld43VeJVIeqlP9I7Fn9/qaVqoEAuQ==}
+  /@types/node/18.11.13:
+    resolution: {integrity: sha512-IASpMGVcWpUsx5xBOrxMj7Bl8lqfuTY7FKAnPmu5cHkfQVWF8GulWS1jbRqA934qZL35xh5xN/+Xe/i26Bod4w==}
     dev: true
 
   /@types/resolve/1.17.1:
     resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
     dependencies:
-      '@types/node': 18.11.10
+      '@types/node': 18.11.13
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.39.0_cfd7h3iktziq6hcwahu2qxhjhy:
@@ -3515,7 +3515,7 @@ packages:
       nopt: 1.0.10
     dev: true
 
-  /ts-node/10.9.1_tqjxwsrbrthhtfy6omehzgz7kq:
+  /ts-node/10.9.1_zwbbn7v4nhzhfdmlr6kgywzsoe:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3534,7 +3534,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 18.11.10
+      '@types/node': 18.11.13
       acorn: 8.8.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -3700,7 +3700,7 @@ packages:
       convert-source-map: 1.8.0
     dev: true
 
-  /vite/3.2.4_@types+node@18.11.10:
+  /vite/3.2.4_@types+node@18.11.13:
     resolution: {integrity: sha512-Z2X6SRAffOUYTa+sLy3NQ7nlHFU100xwanq1WDwqaiFiCe+25zdxP1TfCS5ojPV2oDDcXudHIoPnI1Z/66B7Yw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -3725,7 +3725,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.11.10
+      '@types/node': 18.11.13
       esbuild: 0.15.10
       postcss: 8.4.19
       resolve: 1.22.1
@@ -3758,7 +3758,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.3
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.11.10
+      '@types/node': 18.11.13
       chai: 4.3.6
       debug: 4.3.4
       local-pkg: 0.4.2
@@ -3766,7 +3766,7 @@ packages:
       tinybench: 2.3.1
       tinypool: 0.3.0
       tinyspy: 1.0.2
-      vite: 3.2.4_@types+node@18.11.10
+      vite: 3.2.4_@types+node@18.11.13
     transitivePeerDependencies:
       - less
       - sass
