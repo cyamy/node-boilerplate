@@ -13,5 +13,4 @@ export const hello = () => ({
     bar: 'world',
 });
 
-// eslint-disable-next-line no-console
 console.log(`${hello().foo} ${hello().bar}`);
