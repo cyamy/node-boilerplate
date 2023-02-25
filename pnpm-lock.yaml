@@ -8,7 +8,7 @@ specifiers:
   nodemon: ^2.0.20
   rome: ^11.0.0
   ts-node: 10.9.1
-  typescript: 4.9.4
+  typescript: 4.9.5
   unbuild: ^1.1.1
   vite: ^4.0.4
   vitest: 0.28.1
@@ -20,8 +20,8 @@ devDependencies:
   lint-staged: 13.1.0
   nodemon: 2.0.20
   rome: 11.0.0
-  ts-node: 10.9.1_fwhrdah3qt2b7otyggpxt7mmz4
-  typescript: 4.9.4
+  ts-node: 10.9.1_uayvamxqnl5yeiojjysxwopmsy
+  typescript: 4.9.5
   unbuild: 1.1.1
   vite: 4.0.4_@types+node@18.14.1
   vitest: 0.28.1
@@ -1637,7 +1637,7 @@ packages:
     hasBin: true
     dev: true
 
-  /mkdist/1.1.0_typescript@4.9.4:
+  /mkdist/1.1.0_typescript@4.9.5:
     resolution: {integrity: sha512-eTw467KIfd/ilsY/yS6N/fjCe/glP99bTU+ydVJFRUZYaZ3UnL09Q5SGVhMrHLr4Q5qL1pDVDgitQTmLLpUa2A==}
     hasBin: true
     peerDependencies:
@@ -1656,7 +1656,7 @@ packages:
       jiti: 1.16.2
       mri: 1.2.0
       pathe: 1.1.0
-      typescript: 4.9.4
+      typescript: 4.9.5
     dev: true
 
   /mlly/1.1.0:
@@ -1919,7 +1919,7 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-dts/5.1.1_p3yyytxbmytz5gvmi4zzszibjy:
+  /rollup-plugin-dts/5.1.1_3md6k4iljipbt7fzll35epzd3m:
     resolution: {integrity: sha512-zpgo52XmnLg8w4k3MScinFHZK1+ro6r7uVe34fJ0Ee8AM45FvgvTuvfWWaRgIpA4pQ1BHJuu2ospncZhkcJVeA==}
     engines: {node: '>=v14'}
     peerDependencies:
@@ -1928,7 +1928,7 @@ packages:
     dependencies:
       magic-string: 0.27.0
       rollup: 3.10.1
-      typescript: 4.9.4
+      typescript: 4.9.5
     optionalDependencies:
       '@babel/code-frame': 7.18.6
     dev: true
@@ -2194,7 +2194,7 @@ packages:
       nopt: 1.0.10
     dev: true
 
-  /ts-node/10.9.1_fwhrdah3qt2b7otyggpxt7mmz4:
+  /ts-node/10.9.1_uayvamxqnl5yeiojjysxwopmsy:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -2220,7 +2220,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 4.9.4
+      typescript: 4.9.5
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -2239,8 +2239,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /typescript/4.9.4:
-    resolution: {integrity: sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==}
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
@@ -2268,16 +2268,16 @@ packages:
       jiti: 1.16.2
       magic-string: 0.27.0
       mkdirp: 1.0.4
-      mkdist: 1.1.0_typescript@4.9.4
+      mkdist: 1.1.0_typescript@4.9.5
       mlly: 1.1.0
       mri: 1.2.0
       pathe: 1.1.0
       pkg-types: 1.0.1
       pretty-bytes: 6.0.0
       rollup: 3.10.1
-      rollup-plugin-dts: 5.1.1_p3yyytxbmytz5gvmi4zzszibjy
+      rollup-plugin-dts: 5.1.1_3md6k4iljipbt7fzll35epzd3m
       scule: 1.0.0
-      typescript: 4.9.4
+      typescript: 4.9.5
       untyped: 1.2.2
     transitivePeerDependencies:
       - sass
