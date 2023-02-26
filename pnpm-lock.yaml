@@ -4,7 +4,7 @@ specifiers:
   '@types/node': 18.14.1
   c8: 7.13.0
   husky: 8.0.3
-  lint-staged: 13.1.0
+  lint-staged: 13.1.2
   nodemon: ^2.0.20
   rome: ^11.0.0
   ts-node: 10.9.1
@@ -17,7 +17,7 @@ devDependencies:
   '@types/node': 18.14.1
   c8: 7.13.0
   husky: 8.0.3
-  lint-staged: 13.1.0
+  lint-staged: 13.1.2
   nodemon: 2.0.20
   rome: 11.0.0
   ts-node: 10.9.1_uayvamxqnl5yeiojjysxwopmsy
@@ -1715,8 +1715,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /lint-staged/13.1.0:
-    resolution: {integrity: sha512-pn/sR8IrcF/T0vpWLilih8jmVouMlxqXxKuAojmbiGX5n/gDnz+abdPptlj0vYnbfE0SQNl3CY/HwtM0+yfOVQ==}
+  /lint-staged/13.1.2:
+    resolution: {integrity: sha512-K9b4FPbWkpnupvK3WXZLbgu9pchUJ6N7TtVZjbaPsoizkqFUDkUReUL25xdrCljJs7uLUF3tZ7nVPeo/6lp+6w==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
