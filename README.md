@@ -9,8 +9,7 @@ support in-source testing.
 -   [nodemon](https://github.com/remy/nodemon)
 -   [vitest](https://github.com/vitest-dev/vitest)
 -   [unbuild](https://github.com/unjs/unbuild)
--   [prettier](https://github.com/prettier/prettier)
--   [eslint](https://github.com/eslint/eslint) (with TypeScript settings)
+-   [rome](https://github.com/rome/tools)
 -   [husky](https://github.com/typicode/husky)
 -   [lint-staged](https://github.com/okonet/lint-staged)
 
