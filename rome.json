@@ -6,7 +6,7 @@
     }
   },
   "formatter": {
-    "indentStyle": "space",
-    "indentSize": 4
+    "indentSize": 4,
+    "formatWithErrors": true
   }
 }

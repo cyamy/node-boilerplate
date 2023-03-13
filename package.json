@@ -15,13 +15,15 @@
         "test:coverage": "vitest run --coverage",
         "build": "npx unbuild",
         "preview": "node build/index.mjs",
+        "lint": "npx rome check src/",
+        "lint:fix": "npx rome check --apply-suggested src/",
+        "fmt": "npx rome format --write src/",
         "lint-staged": "lint-staged",
         "prepare": "husky install"
     },
     "lint-staged": {
         "*.{js,ts,jsx,tsx}": [
-            "npx eslint src --fix",
-            "npx prettier --write src"
+            "npx rome format --write src/"
         ]
     },
     "devDependencies": {
