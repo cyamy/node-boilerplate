@@ -1,9 +1,9 @@
-import { defineBuildConfig } from 'unbuild';
+import { defineBuildConfig } from "unbuild";
 
 export default defineBuildConfig({
-    entries: ['src/index'],
-    outDir: 'build',
-    replace: {
-        'import.meta.vitest': 'undefined',
-    },
+	entries: ["src/index"],
+	outDir: "build",
+	replace: {
+		"import.meta.vitest": "undefined",
+	},
 });
