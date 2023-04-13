@@ -35,7 +35,7 @@
         "rome": "^11.0.0",
         "ts-node": "10.9.1",
         "typescript": "5.0.2",
-        "unbuild": "^1.1.2",
+        "unbuild": "^1.2.1",
         "vite": "^4.2.0",
         "vitest": "0.29.3"
     }
