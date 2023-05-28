@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@types/node': 18.15.3
-  c8: 7.13.0
+  c8: 7.14.0
   husky: 8.0.3
   lint-staged: 13.2.0
   nodemon: ^2.0.21
@@ -15,7 +15,7 @@ specifiers:
 
 devDependencies:
   '@types/node': 18.15.3
-  c8: 7.13.0
+  c8: 7.14.0
   husky: 8.0.3
   lint-staged: 13.2.0
   nodemon: 2.0.21
@@ -858,8 +858,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /c8/7.13.0:
-    resolution: {integrity: sha512-/NL4hQTv1gBL6J6ei80zu3IiTrmePDKXKXOTLpHvcIWZTVYQlDhVWjjWvkhICylE8EwwnMVzDZugCvdx0/DIIA==}
+  /c8/7.14.0:
+    resolution: {integrity: sha512-i04rtkkcNcCf7zsQcSv/T9EbUn4RXQ6mropeMcjFOsQXQ0iGLAr/xT6TImQg4+U9hmNpN9XdvPkjUL1IzbgxJw==}
     engines: {node: '>=10.12.0'}
     hasBin: true
     dependencies:
