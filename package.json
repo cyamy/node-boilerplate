@@ -27,7 +27,7 @@
         ]
     },
     "devDependencies": {
-        "@types/node": "18.15.3",
+        "@types/node": "18.19.78",
         "c8": "7.13.0",
         "husky": "8.0.3",
         "lint-staged": "13.2.0",
